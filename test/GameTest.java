@@ -1,4 +1,5 @@
 package Week_7.test;
+import Week_7.manager.*;
 
 /* 
  * Name: Sekai Cuperus
@@ -10,5 +11,11 @@ package Week_7.test;
  */
 
 public class GameTest {
+    // run the game!! 
+    // main method
+    public static void main(String[] args) {
+        Blackjack game = new Blackjack();
+        game.playGame();
+    }
     
 }
